@@ -11,4 +11,4 @@ footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
 
 <br />
 
-<center><a href="./why-wnr/yes-wnr.html" class="btn btn--third">WHY YOU NEED wnr</a></center>
+<center><a href="./why-wnr/yes-wnr.html" class="btn btn--third">Why you need wnr</a></center>
