@@ -20,4 +20,4 @@ What's more:
 
 - wnr is easier and more convinient to use with fine settings, including predefined tasks settings.
 
-<br /><center><a href="https://github.com/RoderickQiu/wnr/releases" class="btn btn--default">Download wnr now</a></center>
+<br /><a href="https://github.com/RoderickQiu/wnr/releases" class="btn btn--default">Download wnr now</a>
