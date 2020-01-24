@@ -1,9 +1,9 @@
 {
   "name": "wnr-guide",
-  "version": "0.1.0",
+  "version": "1.9.1",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "author": "RoderickQiu",
   "license": "MPL-2.0",
@@ -12,7 +12,7 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
-    "vue-template-compiler": "^2.6.10",
+    "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.2.0"
   }
 }

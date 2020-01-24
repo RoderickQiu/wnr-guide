@@ -20,4 +20,6 @@ wnr还有这些吸引人的地方：
 
 - 高效易用，方便舒心。
 
+- ……
+
 <br /><a href="https://github.com/RoderickQiu/wnr/releases" class="btn btn--default"><center>现在就下载wnr</center></a>
