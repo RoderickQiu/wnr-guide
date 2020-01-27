@@ -1,6 +1,6 @@
 {
   "name": "wnr-guide",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

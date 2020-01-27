@@ -40,12 +40,14 @@ const matchFileName = path => {
 
 export function title(str) {
   const regex = /(?:(?:(\s?(?:^|[.\(\)!?;:"-])\s*)(\w))|(\w))(\w*[’']*\w*)/g
-  const specials = ['http', 'https', 'cli', 'api']
+  const specialsUpper = ['http', 'https', 'cli', 'api']
+  const specialsLower = ['wnr']
 
   return str
     .toLowerCase()
     .replace(regex, (m, lead = '', forced, lower, rest) => {
-      if (specials.includes(m)) return m.toUpperCase()
+      if (specialsUpper.includes(m)) return m.toUpperCase()
+      if (specialsLower.includes(m)) return m.toLowerCase()
 
       return lead + (lower || forced).toUpperCase() + rest
     })
