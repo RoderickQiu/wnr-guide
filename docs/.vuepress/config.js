@@ -3,6 +3,11 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }]
     ],
+    plugins: {
+        'sitemap': {
+            hostname: 'https://wnr.scris.top'
+        },
+    },
     port: 9311,
     editLinks: true,
     locales: {
