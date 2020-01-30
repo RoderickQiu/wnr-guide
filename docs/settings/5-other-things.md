@@ -1,4 +1,4 @@
-# 4. Other Things
+# 5. Other Things
 
 **You can manually check for update, set hotkeys, delete all settings here.**
 

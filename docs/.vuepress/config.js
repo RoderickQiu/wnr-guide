@@ -69,8 +69,12 @@ module.exports = {
                                 to: '/settings/3-global-settings.html',
                             },
                             {
-                                title: '4. Other Things',
-                                to: '/settings/4-other-things.html',
+                                title: '4. Lock Mode Settings',
+                                to: '/settings/4-lock-mode-settings.html',
+                            },
+                            {
+                                title: '5. Other Things',
+                                to: '/settings/5-other-things.html',
                             },
                         ]
                     }
@@ -119,8 +123,12 @@ module.exports = {
                                 to: '/zh/settings/3-global-settings.html',
                             },
                             {
-                                title: '4. 其它事项',
-                                to: '/zh/settings/4-other-things.html',
+                                title: '4. 锁定模式设置',
+                                to: '/zh/settings/4-lock-mode-settings.html',
+                            },
+                            {
+                                title: '5. 其它事项',
+                                to: '/zh/settings/5-other-things.html',
                             },
                         ]
                     }
