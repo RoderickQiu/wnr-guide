@@ -7,13 +7,13 @@
       </a>
     </div>
     <div class="row" v-if="shouldShowSidebar">
-      <div class="col-md-3 col-lg-2" v-show="shouldMenuOpen">
+      <div class="col-md-3 col-lg-2 sidebar__container" v-show="shouldMenuOpen">
         <Sidebar :items="sidebarItems">
           <slot name="sidebar-top" slot="top" />
           <slot name="sidebar-bottom" slot="bottom" />
         </Sidebar>
       </div>
-      <div class="col-md-9 col-lg-10" v-show="shouldContentSeen">
+      <div class="col-md-9 col-lg-10 content__container" v-show="shouldContentSeen">
         <div class="custom__layout" v-if="$page.frontmatter.layout">
           <component :is="$page.frontmatter.layout" />
         </div>
@@ -110,9 +110,8 @@ export default {
   },
   watch: {
     $route: function() {
-      if (document.body.clientWidth >= 768) {
-        this.shouldMenuOpen = true
-      } else (this.shouldMenuOpen = false), (this.isSidebarOpen = false)
+      this.isSidebarOpen = false
+      this.shouldMenuOpen = false
       this.shouldContentSeen = true
     },
   },
@@ -122,11 +121,6 @@ export default {
       this.$ssrContext.lang = this.$lang
       this.$ssrContext.description = this.$page.description || this.$description
     }
-
-    if (document.body.clientWidth >= 768) {
-      this.shouldMenuOpen = true
-    } else (this.shouldMenuOpen = false), (this.isSidebarOpen = false)
-    this.shouldContentSeen = true
   },
 }
 </script>
@@ -162,6 +156,10 @@ export default {
 
   .menu__container {
     display: none;
+  }
+
+  .content__container, .sidebar__container {
+    display: block !important;
   }
 }
 </style>
