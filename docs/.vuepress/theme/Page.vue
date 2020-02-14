@@ -218,6 +218,12 @@ export default {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .page__container {
+    padding: 2rem 2rem 0;
+  }
+}
+
 .content__footer {
   display: flex;
   justify-content: space-between;

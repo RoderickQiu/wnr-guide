@@ -8,17 +8,17 @@ There are two kinds of tasks, one is default task, and another form is not. Defa
 
 **The content of the default task will show as the one with red title in the settings, and it'll be automatically filled to the index page.**
 
-<img src="https://i.loli.net/2020/01/23/GBEDHNFPpSJsQdi.png" width="50%" height="50%" /><br />
+<img src="https://i.loli.net/2020/02/14/KI8fFcrYiuMO4Bk.png"/><br />
 
 If you want, you can check the *Auto start default task when wnr is launched* section in [Global Settings](./3-global-settings.html).
 
-<img src="https://i.loli.net/2020/01/23/YljeXgCdAs9cQ2t.png" width="50%" height="50%" /><br />
+<img src="https://i.loli.net/2020/02/14/8HWcjmqeRVL43Ok.png"/><br />
 
 ## Common Tasks
 
 The tasks with blue title on are common tasks.
 
-<img src="https://i.loli.net/2020/01/23/CaeSmprfL6lug2Z.png" width="50%" height="50%" /><br />
+<img src="https://i.loli.net/2020/02/14/HtrMUs1lZjyTcv8.png"/><br />
 
 You can set them default or delete them.
 

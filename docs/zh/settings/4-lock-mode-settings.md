@@ -7,3 +7,7 @@
 输入密码后，**设置将会被禁用、wnr将无法被退出**。
 
 目前，你**不能找回密码**。如果实在有特殊情况，可以[联系](mailto:scrisqiu@hotmail.com)我协助处理。
+
+---
+
+<img src="https://i.loli.net/2020/02/14/TmyBKJsvW9ENuxn.png" >

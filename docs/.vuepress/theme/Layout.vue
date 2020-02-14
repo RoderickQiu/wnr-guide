@@ -1,13 +1,19 @@
 <template>
   <div class="theme__container" :class="pageClasses">
+    <div class="menu__container">
+      <a v-on:click="openMenu()" v-show="shouldShowSidebar">
+        <img src="./src/menu.png" v-show="shouldContentSeen" />
+        <img src="./src/close.png" v-show="shouldMenuOpen" />
+      </a>
+    </div>
     <div class="row" v-if="shouldShowSidebar">
-      <div class="col-md-2">
+      <div class="col-md-3 col-lg-2" v-show="shouldMenuOpen">
         <Sidebar :items="sidebarItems">
           <slot name="sidebar-top" slot="top" />
           <slot name="sidebar-bottom" slot="bottom" />
         </Sidebar>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-9 col-lg-10" v-show="shouldContentSeen">
         <div class="custom__layout" v-if="$page.frontmatter.layout">
           <component :is="$page.frontmatter.layout" />
         </div>
@@ -44,7 +50,22 @@ export default {
   data() {
     return {
       isSidebarOpen: true,
+      shouldMenuOpen: false,
+      shouldContentSeen: true,
     }
+  },
+  methods: {
+    openMenu: function() {
+      this.shouldMenuOpen
+        ? (this.shouldMenuOpen = false)
+        : (this.shouldMenuOpen = true)
+      this.shouldContentSeen
+        ? (this.shouldContentSeen = false)
+        : (this.shouldContentSeen = true)
+      this.isSidebarOpen
+        ? (this.isSidebarOpen = false)
+        : (this.isSidebarOpen = true)
+    },
   },
   computed: {
     sidebarItems() {
@@ -87,15 +108,60 @@ export default {
       nprogress.done()
     })
   },
+  watch: {
+    $route: function() {
+      if (document.body.clientWidth >= 768) {
+        this.shouldMenuOpen = true
+      } else (this.shouldMenuOpen = false), (this.isSidebarOpen = false)
+      this.shouldContentSeen = true
+    },
+  },
   created() {
     if (this.$ssrContext) {
       this.$ssrContext.title = this.$title
       this.$ssrContext.lang = this.$lang
       this.$ssrContext.description = this.$page.description || this.$description
     }
+
+    if (document.body.clientWidth >= 768) {
+      this.shouldMenuOpen = true
+    } else (this.shouldMenuOpen = false), (this.isSidebarOpen = false)
+    this.shouldContentSeen = true
   },
 }
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="./styles/theme.styl" lang="stylus"></style>
+<style lang="stylus">
+@import './styles/_variables.styl';
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu__container {
+    display: block;
+    position: sticky;
+    padding: 2rem 2rem 0;
+    text-align: right;
+
+    img {
+      width: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .menu__container {
+    display: none;
+  }
+}
+</style>

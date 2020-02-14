@@ -6,7 +6,7 @@
       <Button :to="action.link">{{ action.text }}</Button>
     </div>
     <div class="home__body row">
-      <div class="home__content col-md-10">
+      <div class="home__content">
         <Content custom />
       </div>
     </div>
@@ -95,6 +95,10 @@ export default {
   &__header {
     margin: 10rem 0 2rem 0;
     text-align: center;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 1rem;
+    }
   }
 
   &__title {

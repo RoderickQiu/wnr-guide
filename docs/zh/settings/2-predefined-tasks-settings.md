@@ -10,15 +10,15 @@
 
 默认预设不能被删除。
 
-<img src="https://i.loli.net/2020/01/24/QnLsUahiKZTj6No.png" width="40%" height="40%" /><br />
+<img src="https://i.loli.net/2020/02/14/Ay8zHCbcNLUwDeE.png"/><br />
 
-<img src="https://i.loli.net/2020/01/24/cf7O2TsVjSIUGCR.png" width="50%" height="50%" /><br />
+<img src="https://i.loli.net/2020/02/14/ms2xrJelhU7tQYZ.png"/><br />
 
 ## 普通预设
 
 蓝色的是普通预设。
 
-<img src="https://i.loli.net/2020/01/24/N3Zqo1uS8TgpRrV.png" width="50%" height="50%" /><br />
+<img src="https://i.loli.net/2020/02/14/FmONWf8Xe97dazx.png"/><br />
 
 普通预设和默认预设的功能同样，你还可以把它们设为默认或是删除。
 
