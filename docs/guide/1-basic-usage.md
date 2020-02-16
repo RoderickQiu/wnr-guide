@@ -34,6 +34,8 @@ The timer can be paused(<kbd>||</kbd>), skipped(<kbd>>></kbd>) or given up(<kbd>
 
 When there is only 1 minute left, a notification is sent.
 
+**If you quit while executing a task, the task will automatically resume the next time you open it. If you turn on lock mode or full screen focus mode, you will not be able to exit**.
+
 <img src="https://i.loli.net/2020/01/22/YI6zWNqBCgiK1TR.png"/><br />
 
 When the time ends, a warning is given.

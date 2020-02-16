@@ -1,7 +1,8 @@
 module.exports = {
     theme: 'api',
     head: [
-        ['link', { rel: 'icon', href: '/icon.png' }]
+        ['link', { rel: 'icon', href: '/icon.png' }],
+        ['script', { src: '/patcher.js' }]
     ],
     plugins: {
         'sitemap': {

@@ -18,6 +18,8 @@ What's more:
 
 - wnr has got some feature to make the rules more strict, so that **you must work and you must rest**.
 
+- wnr has got lock mode, etc.
+
 - wnr is easier and more convinient to use with fine settings, including predefined tasks settings.
 
 <br /><a href="https://github.com/RoderickQiu/wnr/releases" class="btn btn--default">Download wnr now</a>
