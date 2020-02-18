@@ -7,7 +7,7 @@ actionLink: https://github.com/RoderickQiu/wnr/releases
 footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
 ---
 
-<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v1.11.0)</a></center>
+<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a></center>
 
 <br />
 

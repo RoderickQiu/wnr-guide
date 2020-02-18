@@ -1,16 +1,19 @@
 {
   "name": "wnr-guide",
-  "version": "1.11.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "author": "RoderickQiu",
-  "license": "MPL-2.0",
+  "license": "CC-BY-4.0",
   "homepage": "https://wnr.scris.top",
   "dependencies": {
-    "axios": "^0.19.2",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "vue-template-compiler": "^2.6.11",

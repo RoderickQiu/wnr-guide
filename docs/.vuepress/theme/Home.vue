@@ -23,6 +23,7 @@ import Button from './components/Button'
 const md = new MarkdownIt()
 
 export default {
+  mounted() {},
   components: {
     Button,
   },

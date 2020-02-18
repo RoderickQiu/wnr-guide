@@ -1,9 +1,11 @@
 <template>
   <div class="container notfound-page">
     <div class="content">
-      <h1>Not Found</h1>
-      <p>{{ getMsg() }}</p>
-      <router-link class="backto" to="/">Take me home.</router-link>
+      <div class="container">
+        <h1 class="home__title">Not Found</h1>
+        <p>{{ getMsg() }}</p>
+        <router-link class="backto" to="/">Take me home.</router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -27,35 +29,26 @@ export default {
 }
 </script>
 
+<style src="./styles/theme.styl" lang="stylus"></style>
 <style lang="stylus" scoped>
-.notfound-page
-  display: flex
-  align-items: center
-  justify-content: center
-  height: 100vh
-  text-align: center
+@import './styles/_variables.styl';
 
-.content
-  display: flex
-  align-items: center
-  margin-bottom: 24px
+.notfound-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
 
-  h1
-    margin: 0
-    font-size: 20px
-    font-weight: 500
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 
-    &::after
-      margin: 0 10px
-      content: "·"
-
-  p
-    margin: 0
-    margin-right: 10px
-    font-size: 14px
-
-  .backto
-    font-size: 14px
-    text-decoration: none
-    color: #067df7
+  .backto {
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
 </style>

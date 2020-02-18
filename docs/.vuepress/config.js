@@ -8,6 +8,15 @@ module.exports = {
         'sitemap': {
             hostname: 'https://wnr.scris.top'
         },
+        'smooth-scroll': {},
+        "pangu": {},
+        'zooming': {
+            selector: ".content__container img",
+            options: {
+                bgColor: '#fefefe',
+                zIndex: 10000,
+            },
+        },
     },
     port: 9311,
     editLinks: true,
@@ -26,6 +35,7 @@ module.exports = {
         }
     },
     themeConfig: {
+        versionFor: '1.11.2',///version
         locales: {
             '/': {
                 selectText: 'Languages',

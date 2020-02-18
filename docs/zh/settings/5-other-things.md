@@ -1,6 +1,6 @@
 # 5. 其它设置和信息
 
-**你可以在此处检查更新、设置快捷键或是清除数据。**
+**你可以在此处检查更新、设置快捷键、备份、导入或是清除数据。**
 
 请谨慎清除数据。
 
@@ -12,4 +12,4 @@
 
 <img src="https://i.loli.net/2020/02/14/52NuOWMfox1giCY.png" >
 <img src="https://i.loli.net/2020/02/14/BtpGSQLEU9HfyZP.png" >
-<img src="https://i.loli.net/2020/02/14/zjZI2Rf3lvwms9r.png" >
+<img src="https://i.loli.net/2020/02/18/IAOg8Kkup3btnFY.png" >
