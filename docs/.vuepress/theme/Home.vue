@@ -3,7 +3,6 @@
     <div class="home__header">
       <h1 class="home__title">{{ title }}</h1>
       <p class="home__description">{{ description }}</p>
-      <Button :to="action.link">{{ action.text }}</Button>
     </div>
     <div class="home__body row">
       <div class="home__content">
@@ -40,15 +39,6 @@ export default {
         this.$description ||
         '📦 🎨 A api-friendly theme for VuePress.'
       )
-    },
-    action() {
-      return {
-        text: this.data.actionText,
-        link:
-          this.data.actionLink.indexOf('http') == -1
-            ? localizePath(this.data.actionLink, this.$localePath)
-            : this.data.actionLink,
-      }
     },
     footer() {
       const defaultFooter =
