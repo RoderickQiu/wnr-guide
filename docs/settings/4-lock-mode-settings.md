@@ -10,4 +10,4 @@ Currently, there's **not a solution for you to retrieve your password**. If pass
 
 ---
 
-<img src="https://i.loli.net/2020/02/14/8heB7SoxWECvIQj.png" >
+<img src="https://i.loli.net/2020/02/27/7b8PayMxVsXWpSH.png" >
