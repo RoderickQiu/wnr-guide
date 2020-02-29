@@ -7,7 +7,11 @@ footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
 
 <center><a href="./download/links.html" class="btn btn--default">Download wnr now</a></center>
 
-<br />
+<br /><br />
+
+<center><img src="https://i.loli.net/2020/02/27/c7qyQRezaVrpvTk.png"/></center>
+
+<br /><br />
 
 <center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a></center>
 

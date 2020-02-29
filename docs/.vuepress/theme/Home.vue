@@ -54,7 +54,7 @@ export default {
 
 .home {
   &__header {
-    margin: 10rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
     text-align: center;
 
     @media screen and (max-width: 768px) {
