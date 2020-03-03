@@ -54,7 +54,7 @@ export default {
 
 .home {
   &__header {
-    margin: 3rem 0 2rem 0;
+    margin: 3rem 0 1rem 0;
     text-align: center;
 
     @media screen and (max-width: 768px) {
@@ -69,7 +69,7 @@ export default {
 
   &__description {
     padding: 0 20%;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     font-size: 18px;
     line-height: 24px;
     color: $black;

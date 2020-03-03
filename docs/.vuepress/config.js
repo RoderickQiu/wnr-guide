@@ -25,17 +25,17 @@ module.exports = {
             lang: 'en-US',
             title: 'wnr',
             text: 'English',
-            description: 'The website and guide of wnr. ',
+            description: 'The website and guide of wnr. It\'s a timer app with strong expansibility for computers.',
         },
         '/zh/': {
             lang: 'zh-CN',
             title: 'wnr',
             text: '简体中文',
-            description: 'wnr的指南与官网。',
+            description: '这是wnr的指南与官网。wnr是一款跨平台的轻量计时软件，让你更高效、强力地管理作与息。',
         }
     },
     themeConfig: {
-        versionFor: '1.12.0',///version
+        versionFor: '1.12.2',///version
         locales: {
             '/': {
                 selectText: 'Languages',

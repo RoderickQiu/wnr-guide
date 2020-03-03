@@ -5,6 +5,10 @@ description: 跨平台的轻量计时软件，让你更高效、强力地管理�
 footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
 ---
 
+<center>中文 | <a href="../">English</a></center>
+
+<br />
+
 <center><a href="./download/links.html" class="btn btn--default">现在就下载wnr</a></center>
 
 <br /><br />
@@ -18,7 +22,3 @@ footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
 <br />
 
 <center><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
-
-<br />
-
-<center>中文 | <a href="../">English</a></center>
