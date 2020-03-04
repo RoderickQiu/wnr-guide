@@ -7,7 +7,7 @@
   },
   "author": "RoderickQiu",
   "license": "CC-BY-4.0",
-  "homepage": "https://wnr.scris.top",
+  "homepage": "https://getwnr.com",
   "dependencies": {
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-zooming": "^1.1.7",

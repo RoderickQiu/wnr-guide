@@ -6,7 +6,7 @@ module.exports = {
     ],
     plugins: {
         'sitemap': {
-            hostname: 'https://wnr.scris.top'
+            hostname: 'https://getwnr.com'
         },
         'smooth-scroll': {},
         "pangu": {},
