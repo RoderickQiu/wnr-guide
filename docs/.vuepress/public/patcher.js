@@ -8,7 +8,7 @@
     }
     var s = document.getElementsByTagName('script')[0]
     s.parentNode.insertBefore(bp, s)
-})() //Baidu Push
+})() // Baidu Push
 
 var $buoop = {
     required: { e: -4, f: -6, o: -6, s: -2, c: -6 },
@@ -25,4 +25,12 @@ try {
     document.addEventListener('DOMContentLoaded', $buo_f, false)
 } catch (e) {
     window.attachEvent('onload', $buo_f)
-} //notification for updating browser
+} // Notification for updating browser
+
+var _hmt = _hmt || [];
+(function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?eb37307740f68c2e868c9aad387d40ae";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})(); // Baidu Tongji
