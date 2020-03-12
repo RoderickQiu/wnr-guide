@@ -8,6 +8,4 @@
 
 ---
 
-<img src="https://i.loli.net/2020/02/14/iI1xkr4YbTBsSFq.png"/>
-
-<img src="https://i.loli.net/2020/02/14/oxE2WuyQckfIOaw.png"/>
+<img src="https://i.loli.net/2020/03/12/7xMKNXWv21lzLTH.png" />

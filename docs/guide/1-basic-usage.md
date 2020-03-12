@@ -2,7 +2,7 @@
 
 ## Index page
 
-<img src="https://i.loli.net/2020/02/27/c7qyQRezaVrpvTk.png"/>
+<img src="https://i.loli.net/2020/03/12/pvkWMzsGd7FUE51.png"/>
 
 When you open wnr, it looks like that. **Just enter the numbers, and a timer will be set.**
 
@@ -16,7 +16,7 @@ You can also see how many time in total this schedule is going to cost.
 
 (You can have your time with wnr's **full-screen focus mode** to prevent you from using you computer, too.)
 
-<img src="https://i.loli.net/2020/02/27/okfOLS1D9PnRas2.png"/><br />
+<img src="https://i.loli.net/2020/03/12/yqfJ5tnE1D3WZQs.png"/><br />
 
 We've introduced our new **[predefined tasks system](./../settings/2-predefined-tasks-settings.md)**, by using this, you can have multiple sets of work periods and rest periods.
 
@@ -24,7 +24,7 @@ If you want, you can also make the wnr start its default task each time it is la
 
 Also, wnr can fit into system's dark mode.
 
-<img src="https://i.loli.net/2020/02/27/q8AiQbBHSY1K5m2.png"/><br />
+<img src="https://i.loli.net/2020/03/12/otfNrn8GPxvdMsF.png"/><br />
 
 ## Timer: Work Time
 

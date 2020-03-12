@@ -8,8 +8,4 @@ For the "Language" section, if the checkbox is checked, wnr will display in Engl
 
 ---
 
-<img src="https://i.loli.net/2020/02/14/qAKxPkecJTQDGOb.png"/>
-
-<img src="https://i.loli.net/2020/02/14/lIOnbpd25HXyemr.png"/>
-
-<img src="https://i.loli.net/2020/02/14/3TAXoYUqBZwsQMV.png"/><br />
+<img src="https://i.loli.net/2020/03/12/e2j3wVxp1OvgLWc.png" />

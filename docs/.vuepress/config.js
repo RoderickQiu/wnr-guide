@@ -35,7 +35,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.12.2',///version
+        versionFor: '1.13.0',///version
         locales: {
             '/': {
                 selectText: 'Languages',
@@ -90,6 +90,10 @@ module.exports = {
                             {
                                 title: '5. Other Things',
                                 to: '/settings/5-other-things.html',
+                            },
+                            {
+                                title: '6. Languages',
+                                to: '/settings/6-languages.html',
                             },
                         ]
                     }
@@ -148,6 +152,10 @@ module.exports = {
                             {
                                 title: '5. 其它事项',
                                 to: '/zh/settings/5-other-things.html',
+                            },
+                            {
+                                title: '6. 语言设置',
+                                to: '/zh/settings/6-languages.html',
                             },
                         ]
                     }
