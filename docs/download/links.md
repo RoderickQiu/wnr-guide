@@ -16,6 +16,8 @@
 
   - *Please note that if you've turned on **Windows Defender Smartscreen**, you may need to **click [more info] and then [still allow] to run it**, **or to click [run anyway]** for Windows 8. The situation is here because we cannot afford to buy a signing certificate which costs [hundreds of dollars].*
 
+  - *If you are using Windows 7 and the application isn't working properly, please **apply for the "Vista Compatibility Mode"***.
+
 - Tip for macOS Users:
 
   - *Please note that the **macOS version is unsigned**, so you may need to follow [**this guide**](https://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac) in order to use. This software is clean and safe, I promise.*

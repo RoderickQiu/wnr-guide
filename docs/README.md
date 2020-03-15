@@ -1,8 +1,8 @@
 ---
 home: true
 title: wnr
-description: It's a timer app with strong expansibility for computers.
-footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
+description: It's a timer app with strong expansibility for computers. Work and rest, with wnr now.
+footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name).
 ---
 
 <center><a href="./zh/">中文</a> | English</center>

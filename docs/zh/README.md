@@ -1,8 +1,8 @@
 ---
 home: true
 title: wnr
-description: 跨平台的轻量计时软件，让你更高效、强力地管理作与息。
-footer: © 2019-2020 [Roderick Qiu](https://r-q.name).
+description: 跨平台的轻量计时和时间管理工具，让你更高效、强力地管理作与息。
+footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name).
 ---
 
 <center>中文 | <a href="../">English</a></center>
