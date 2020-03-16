@@ -1,8 +1,13 @@
 module.exports = {
     theme: 'api',
     head: [
-        ['link', { rel: 'icon', href: '/icon.png' }],
-        ['script', { src: '/patcher.js' }]
+        ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
+        ['script', { src: '/patcher.js' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#ffffff' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'apple-touch-icon', href: '/assets/appleTouchIcon.png' }]
     ],
     plugins: {
         'sitemap': {
@@ -17,6 +22,10 @@ module.exports = {
                 zIndex: 10000,
             },
         },
+        '@vuepress/pwa': {
+            serviceWorker: true,
+            updatePopup: true
+        }
     },
     port: 9311,
     editLinks: true,
