@@ -13,7 +13,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name).
 
 <br /><br />
 
-<center><img src="https://i.loli.net/2020/03/12/kD2d8bpWn6Oo1QF.png"/></center>
+<center><img src="https://i.loli.net/2020/03/22/WvlcLy2ERfFDSjN.png"/></center>
 
 <br /><br />
 

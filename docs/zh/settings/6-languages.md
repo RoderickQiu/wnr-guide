@@ -5,7 +5,3 @@
 目前，已经有了简体/正体中文和英文可选。
 
 你也可以[贡献](https://github.com/RoderickQiu/wnr/blob/master/locales/README.md)。
-
----
-
-<img src="https://i.loli.net/2020/03/12/ZkTCbgKn5UEyWLB.png" />

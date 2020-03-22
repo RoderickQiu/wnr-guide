@@ -44,7 +44,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.13.0',///version
+        versionFor: '1.13.1',///version
         locales: {
             '/': {
                 selectText: 'Languages',

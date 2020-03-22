@@ -2,7 +2,7 @@
 
 ## Index page
 
-<img src="https://i.loli.net/2020/03/12/pvkWMzsGd7FUE51.png"/>
+<img src="https://i.loli.net/2020/03/22/oErbHYDz87MjiZI.png"/>
 
 When you open wnr, it looks like that. **Just enter the numbers, and a timer will be set.**
 
@@ -16,7 +16,7 @@ You can also see how many time in total this schedule is going to cost.
 
 (You can have your time with wnr's **full-screen focus mode** to prevent you from using you computer, too.)
 
-<img src="https://i.loli.net/2020/03/12/yqfJ5tnE1D3WZQs.png"/><br />
+<img src="https://i.loli.net/2020/03/22/7PZ3uJcaGyhb6IC.png"/><br />
 
 We've introduced our new **[predefined tasks system](./../settings/2-predefined-tasks-settings.md)**, by using this, you can have multiple sets of work periods and rest periods.
 
@@ -24,11 +24,9 @@ If you want, you can also make the wnr start its default task each time it is la
 
 Also, wnr can fit into system's dark mode.
 
-<img src="https://i.loli.net/2020/03/12/otfNrn8GPxvdMsF.png"/><br />
-
 ## Timer: Work Time
 
-<img src="https://i.loli.net/2020/01/22/yPwNA1rGsXtu6ph.png"/><br />
+<img src="https://i.loli.net/2020/03/22/jGWsdmZ1PSt8DMf.png"/><br />
 
 As the key **<kbd>Enter</kbd>** is clicked, the timer starts. **Now, go & do your work!**
 
@@ -40,18 +38,18 @@ When there is only 1 minute left, a notification is sent.
 
 **If you quit while executing a task, the task will automatically resume the next time you open it. If you turn on lock mode or full screen focus mode, you will not be able to exit**.
 
-<img src="https://i.loli.net/2020/01/22/YI6zWNqBCgiK1TR.png"/><br />
+<img src="https://i.loli.net/2020/03/22/XrVNp6WjyieE2LY.png"/><br />
 
 When the time ends, a warning is given.
 
 ## Timer: Rest Time
 
-<img src="https://i.loli.net/2020/01/22/PHULaDv4uXnwbYx.png"/><br />
+<img src="https://i.loli.net/2020/03/22/SliUhNGqMRkT8yZ.png"/><br />
 
 And another period of time starts.
 
 ## Timer: Finished
 
-<img src="https://i.loli.net/2020/01/22/qGzAoulOV1XnLKQ.png"/><br />
+<img src="https://i.loli.net/2020/03/22/eUAJkxgy28Vqumv.png"/><br />
 
 Bravo! **You've learnt how to use wnr!**
