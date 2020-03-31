@@ -12,7 +12,7 @@ Why you need wnr? I think there are basically three reasons.
 
 What's more:
 
-- wnr has a mordern interface.
+- wnr has a modern interface.
 
 - wnr has got multi-lingual support.
 
@@ -20,6 +20,6 @@ What's more:
 
 - wnr has got lock mode, etc.
 
-- wnr is easier and more convinient to use with fine settings, including predefined tasks settings.
+- wnr is easier and more convenient to use with fine settings, including predefined tasks settings.
 
 <br /><a href="../download/links.html" class="btn btn--default">Download wnr now</a>
