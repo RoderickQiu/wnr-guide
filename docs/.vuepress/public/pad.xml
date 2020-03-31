@@ -10,10 +10,10 @@
     <Company_UIN>CMP-01431FDA57E</Company_UIN>
     <Company_Description>Scris Studio is a group of 3 students making softwares for fun and for solving problems. Go to https://scris.top/en.html for more information!</Company_Description>
     <Product_UIN>APP-01431FEA4C4</Product_UIN>
-    <Publish_on_CD>FALSE</Publish_on_CD>
-    <Search_String_Unique>wnr</Search_String_Unique>
     <Search_String>wnr</Search_String>
     <Web_Directories_Search_String>wnr</Web_Directories_Search_String>
+    <Search_String_Unique>wnr</Search_String_Unique>
+    <Publish_on_CD>FALSE</Publish_on_CD>
     <RSProductType></RSProductType>
     <Press_Release_Search_String></Press_Release_Search_String>
     <NewsFeed_Search_String></NewsFeed_Search_String>
@@ -34,9 +34,9 @@
       <Contact_First_Name>Roderick</Contact_First_Name>
       <Contact_Last_Name>Qiu</Contact_Last_Name>
       <Contact_Email>scrisqiu@hotmail.com</Contact_Email>
-      <Author_Email>scrisqiu@hotmail.com</Author_Email>
       <Author_First_Name>Roderick</Author_First_Name>
       <Author_Last_Name>Qiu</Author_Last_Name>
+      <Author_Email>scrisqiu@hotmail.com</Author_Email>
     </Contact_Info>
     <Support_Info>
       <Sales_Email>scrisqiu@hotmail.com</Sales_Email>
@@ -145,6 +145,9 @@ Other general optimizations made.
     <FacebookProductPage></FacebookProductPage>
     <GooglePlusProductPage></GooglePlusProductPage>
   </Program_Info>
+  <Allmyapps>
+    <Allmyapps_Terms_And_Conditions>Y</Allmyapps_Terms_And_Conditions>
+  </Allmyapps>
   <Web_Info>
     <Application_URLs>
       <Application_Info_URL>https://getwnr.com/</Application_Info_URL>
@@ -164,9 +167,6 @@ Other general optimizations made.
     <Distribution_Permissions>Any copy of this software can be freely distributed over the Internet in an unchanged form.</Distribution_Permissions>
     <EULA>https://github.com/RoderickQiu/wnr/blob/master/LICENSE</EULA>
   </Permissions>
-  <Allmyapps>
-    <Allmyapps_Terms_And_Conditions>Y</Allmyapps_Terms_And_Conditions>
-  </Allmyapps>
   <AppStore>
     <AppStore_AppID></AppStore_AppID>
     <AppStore_Category></AppStore_Category>
@@ -186,8 +186,10 @@ Other general optimizations made.
       <Char_Desc_45>Work and rest, with wnr now.</Char_Desc_45>
       <Char_Desc_80>It's a timer app with strong expansibility for computers.</Char_Desc_80>
       <Char_Desc_250>It's a timer app with strong expansibility for computers.  Work and rest, with wnr now.</Char_Desc_250>
-      <Char_Desc_450>It's a timer app with strong expansibility for computers.  wnr has a modern interface; wnr has got multi-lingual support; wnr has got some feature to make the rules more strict, so that you must work and you must rest; wnr has got lock mode and all kinds of great functions; also, wnr is easier and more convenient to use with fine settings, including predefined tasks settings.</Char_Desc_450>
-      <Char_Desc_2000>It's a timer app with strong expansibility for computers. Work and rest, with wnr now.  
+      <Char_Desc_450>It's a timer app with strong expansibility for computers.  When you are at work or having online classes, etc., it's common that you stare at the screen for hours, which is bad for your health and work efficiency. So a strong tool with fullscreen focus mode and lock mode etc., like wnr should be needed. Work and rest, with wnr now!</Char_Desc_450>
+      <Char_Desc_2000>It's a timer app with strong expansibility for computers. 
+
+Work and rest, with wnr now.  
 
 Why you need wnr? I think there are basically three reasons.      
 
@@ -199,7 +201,7 @@ Why you need wnr? I think there are basically three reasons.
 
 What's more:
 
-- wnr has a mordern interface.
+- wnr has a modern interface.
 
 - wnr has got multi-lingual support.
 
