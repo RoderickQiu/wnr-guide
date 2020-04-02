@@ -9,6 +9,8 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'apple-touch-icon', href: '/assets/appleTouchIcon.png' }]
     ],
+    evergreen: true,
+    shouldPrefetch: () => false,
     plugins: {
         'sitemap': {
             hostname: 'https://getwnr.com'
@@ -25,7 +27,7 @@ module.exports = {
         '@vuepress/pwa': {
             serviceWorker: true,
             updatePopup: true
-        }
+        },
     },
     port: 9311,
     editLinks: true,
