@@ -46,7 +46,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.13.2',///version
+        versionFor: '1.15.0',///version
         locales: {
             '/': {
                 selectText: 'Languages',
@@ -105,6 +105,10 @@ module.exports = {
                             {
                                 title: '6. Languages',
                                 to: '/settings/6-languages.html',
+                            },
+                            {
+                                title: '7. Personalization',
+                                to: '/settings/7-personalization.html',
                             },
                         ]
                     }
@@ -167,6 +171,10 @@ module.exports = {
                             {
                                 title: '6. 语言设置',
                                 to: '/zh/settings/6-languages.html',
+                            },
+                            {
+                                title: '7. 个性化设置',
+                                to: '/zh/settings/7-personalization.html',
                             },
                         ]
                     }
