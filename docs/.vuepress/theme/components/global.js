@@ -2,10 +2,9 @@ import Button from './Button'
 import Section from './Section'
 import Block from './Block'
 import Example from './Example'
-import CURL from './CURL'
 import Message from './Message'
 
-const components = [Button, Section, Block, Example, CURL]
+const components = [Button, Section, Block, Example]
 
 const install = Vue => {
   components.forEach(component => {

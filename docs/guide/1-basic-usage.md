@@ -18,7 +18,7 @@ You can also see how many time in total this schedule is going to cost.
 
 <img src="https://i.loli.net/2020/04/12/rb5lTuKmsiDvH9Z.png"/><br />
 
-We've introduced our new **[predefined tasks system](./../settings/2-predefined-tasks-settings.md)**, by using this, you can have multiple sets of work periods and rest periods.
+We've introduced our **[predefined tasks system](./../settings/2-predefined-tasks-settings.md)**, by using this, you can have multiple sets of work periods and rest periods.
 
 If you want, you can also make the wnr start its default task each time it is launched by modifying settings.
 

@@ -11,7 +11,7 @@
 })() // Baidu Push
 
 var $buoop = {
-    required: { e: -4, f: -6, o: -6, s: -2, c: -6 },
+    required: { e: -4, f: -10, o: -6, s: -2, c: -10 },
     insecure: true,
     unsupported: true,
     api: 2020.02,

@@ -77,6 +77,7 @@ export default {
 
   &__body {
     justify-content: center;
+    text-align: center;
   }
 
   &__content {
@@ -91,8 +92,20 @@ export default {
 </style>
 
 <style>
+hr {
+  margin: 50px;
+  color: #00000039;
+  border-width: 0.39px;
+}
+
+img {
+  width: 30% !important;
+}
+
 .btn {
-  width: 270px;
+  width: 225px;
+  padding: 1.2em 4em;
+  margin: 5px;
 }
 
 .btn--default {
