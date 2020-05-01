@@ -61,6 +61,10 @@ module.exports = {
                             {
                                 title: 'Why [wnr]',
                                 to: '/why-wnr/yes-wnr.html',
+                            },
+                            {
+                                title: 'Download Links',
+                                to: '/download/links.html'
                             }
                         ],
                     },
@@ -73,10 +77,6 @@ module.exports = {
                             {
                                 title: '2. More',
                                 to: '/guide/2-more.html',
-                            },
-                            {
-                                title: '3. Download Links',
-                                to: '/download/links.html'
                             }
                         ],
                     },
@@ -127,6 +127,10 @@ module.exports = {
                             {
                                 title: '为什么你需要wnr',
                                 to: '/zh/why-wnr/yes-wnr.html',
+                            },
+                            {
+                                title: '下载链接',
+                                to: '/zh/download/links.html'
                             }
                         ],
                     },
@@ -139,10 +143,6 @@ module.exports = {
                             {
                                 title: '2. 更多事项',
                                 to: '/zh/guide/2-more.html',
-                            },
-                            {
-                                title: '3. 下载链接',
-                                to: '/zh/download/links.html'
                             }
                         ],
                     },

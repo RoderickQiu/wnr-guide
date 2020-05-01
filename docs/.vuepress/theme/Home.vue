@@ -5,7 +5,7 @@
       <p class="home__description">{{ description }}</p>
     </div>
     <div class="home__body row">
-      <div class="home__content">
+      <div class="home__content content__container">
         <Content custom />
       </div>
     </div>
@@ -99,7 +99,13 @@ hr {
 }
 
 img {
-  width: 30% !important;
+  width: 39% !important;
+}
+
+@media screen and (max-width: 720px) {
+  img {
+    width: 100% !important;
+  }
 }
 
 .btn {
