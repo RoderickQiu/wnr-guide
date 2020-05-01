@@ -143,7 +143,7 @@ export default {
     text-align: right;
 
     img {
-      width: 30px;
+      width: 30px !important;
     }
   }
 }
