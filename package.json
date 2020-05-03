@@ -9,6 +9,8 @@
   "license": "CC-BY-4.0",
   "homepage": "https://getwnr.com",
   "dependencies": {
+    "vuepress-plugin-canonical": "^1.0.0",
+    "vuepress-plugin-img-lazy": "^1.0.3",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "^0.0.9",

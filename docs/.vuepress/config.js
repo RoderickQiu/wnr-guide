@@ -28,6 +28,10 @@ module.exports = {
             serviceWorker: true,
             updatePopup: true
         },
+        'canonical': {
+            baseURL: 'https://getwnr.com'
+        },
+        'img-lazy': {}
     },
     port: 9311,
     editLinks: true,

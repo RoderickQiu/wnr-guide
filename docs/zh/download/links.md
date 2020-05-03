@@ -1,4 +1,4 @@
-# 下载
+# 下载wnr
 
 [更新日志](https://github.com/RoderickQiu/wnr/releases)
 
