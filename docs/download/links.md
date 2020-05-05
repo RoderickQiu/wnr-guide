@@ -8,7 +8,7 @@
 
 [GitHub Release](https://github.com/RoderickQiu/wnr/releases/latest) | [Softpedia (Windows)](https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml)
 
-[Lanzous cloud-disk (Chinese, Password: 7nzh)](https://www.lanzous.com/b01n0tb4j) | [Baidu Netdisk (Chinese, Password: swh3)](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F)
+[Lanzous cloud-disk](https://www.lanzous.com/b01n0tb4j) (Chinese, Password: 7nzh) | [Baidu Netdisk](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F) (Chinese, Password: swh3)
 
 ## Tips
 

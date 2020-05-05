@@ -6,7 +6,7 @@
 
 ## 下载链接
 
-[**蓝奏云高速下载（密码：7nzh）**](https://www.lanzous.com/b01n0tb4j) | [百度网盘备用链接（密码：swh3）](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F)
+[**蓝奏云高速下载**](https://www.lanzous.com/b01n0tb4j)（密码：7nzh） | [百度网盘备用链接](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F)（密码：swh3）
 
 [GitHub Release](https://github.com/RoderickQiu/wnr/releases/latest) | [Softpedia (Windows)](https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml)
 
