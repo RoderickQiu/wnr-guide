@@ -20,7 +20,7 @@ module.exports = {
         'zooming': {
             selector: ".content__container img",
             options: {
-                bgColor: '#fefefe',
+                bgColor: '#ffffff',
                 zIndex: 10000,
             },
         },
@@ -75,11 +75,11 @@ module.exports = {
                     'guide': {
                         children: [
                             {
-                                title: '1. Basic Usage',
+                                title: 'Basic Usage',
                                 to: '/guide/1-basic-usage.html',
                             },
                             {
-                                title: '2. More',
+                                title: 'More',
                                 to: '/guide/2-more.html',
                             }
                         ],
@@ -87,31 +87,27 @@ module.exports = {
                     'settings': {
                         children: [
                             {
-                                title: '1. Time Settings',
-                                to: '/settings/1-time-settings.html',
-                            },
-                            {
-                                title: '2. Predefined Tasks',
+                                title: 'Predefined Tasks',
                                 to: '/settings/2-predefined-tasks-settings.html',
                             },
                             {
-                                title: '3. Global Settings',
+                                title: 'Global Settings',
                                 to: '/settings/3-global-settings.html',
                             },
                             {
-                                title: '4. Lock Mode Settings',
+                                title: 'Lock Mode Settings',
                                 to: '/settings/4-lock-mode-settings.html',
                             },
                             {
-                                title: '5. Other Things',
+                                title: 'Other Things',
                                 to: '/settings/5-other-things.html',
                             },
                             {
-                                title: '6. Languages',
+                                title: 'Languages',
                                 to: '/settings/6-languages.html',
                             },
                             {
-                                title: '7. Personalization',
+                                title: 'Personalization',
                                 to: '/settings/7-personalization.html',
                             },
                         ]
@@ -141,11 +137,11 @@ module.exports = {
                     '导引': {
                         children: [
                             {
-                                title: '1. 基本使用要领',
+                                title: '基本使用要领',
                                 to: '/zh/guide/1-basic-usage.html',
                             },
                             {
-                                title: '2. 更多事项',
+                                title: '更多事项',
                                 to: '/zh/guide/2-more.html',
                             }
                         ],
@@ -153,31 +149,27 @@ module.exports = {
                     '设置': {
                         children: [
                             {
-                                title: '1. 时间设置',
-                                to: '/zh/settings/1-time-settings.html',
-                            },
-                            {
-                                title: '2. 预设设置',
+                                title: '预设设置',
                                 to: '/zh/settings/2-predefined-tasks-settings.html',
                             },
                             {
-                                title: '3. 全局设置',
+                                title: '全局设置',
                                 to: '/zh/settings/3-global-settings.html',
                             },
                             {
-                                title: '4. 锁定模式设置',
+                                title: '锁定模式设置',
                                 to: '/zh/settings/4-lock-mode-settings.html',
                             },
                             {
-                                title: '5. 其它事项',
+                                title: '其它事项',
                                 to: '/zh/settings/5-other-things.html',
                             },
                             {
-                                title: '6. 语言设置',
+                                title: '语言设置',
                                 to: '/zh/settings/6-languages.html',
                             },
                             {
-                                title: '7. 个性化设置',
+                                title: '个性化设置',
                                 to: '/zh/settings/7-personalization.html',
                             },
                         ]

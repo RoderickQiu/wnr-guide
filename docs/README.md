@@ -2,10 +2,10 @@
 home: true
 title: wnr
 description: It's a timer app with strong expansibility for computers. Work and rest, with wnr now.
-footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name).
+footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [Email](mailto:scrisqiu@hotmail.com)
 ---
 
-[中文](/zh/) · **English** · [GitHub](https://github.com/RoderickQiu/wnr)
+[中文](/zh/) | **English** | [GitHub](https://github.com/RoderickQiu/wnr) | [Online Demo](https://wnr-jr.scris.top)
 
 <br />
 
