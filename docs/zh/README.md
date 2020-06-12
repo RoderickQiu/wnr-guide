@@ -11,6 +11,10 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:s
 
 <center><a href="./download/links.html" class="btn btn--default">下载（Win & macOS）</a><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
 
+<br />
+
+<center><span style="font-size:9px;color:grey;">* 由于使用了<a href="https://blog.csdn.net/sinat_36422236/article/details/84988291">Electron</a>技术，软件大小可能达到数十MB；但下载速度较快，几秒内可以下载完毕。</span></center>
+
 ------
 
 ## 极简设计 舒心易用

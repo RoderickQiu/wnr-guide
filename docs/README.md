@@ -1,7 +1,7 @@
 ---
 home: true
 title: wnr
-description: It's a timer app with strong expansibility for computers. Work and rest, with wnr now.
+description: It's a time-management tool for computers. Work and rest, with wnr now.
 footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [Email](mailto:scrisqiu@hotmail.com)
 ---
 
@@ -10,6 +10,10 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [Email](mailto:scrisqiu
 <br />
 
 <center><a href="./download/links.html" class="btn btn--default">Download now</a><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">Why, wnr</a></center>
+
+<br />
+
+<center><span style="font-size:9px;color:grey;">* Using <a href="https://quasar.dev/quasar-cli/developing-electron-apps/introduction">Electron</a> to develop, wnr's file size is a little bit big. Don't be shocked.</span></center>
 
 ------
 

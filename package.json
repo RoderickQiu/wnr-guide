@@ -17,8 +17,8 @@
     "vuepress-plugin-zooming": "^1.1.7"
   },
   "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.4.1",
+    "@vuepress/plugin-pwa": "^1.5.1",
     "vue-template-compiler": "^2.6.11",
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.5.1"
   }
 }
