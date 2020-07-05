@@ -23,7 +23,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:s
 
 适配高分屏、暗黑模式和触摸屏。
 
-![minimalist design](https://i.loli.net/2020/04/12/osaKftvjBSnGi4D.png)
+![minimalist design](https://i.loli.net/2020/07/05/xViyCBsPJzdfE8h.png)
 
 ------
 
@@ -33,7 +33,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:s
 
 若不需要那么强的控制，你也可以在设置中选择宽松全屏模式。
 
-![fullscreen focus mode](https://i.loli.net/2020/04/30/AfZLYQmjJRGxdyI.png)
+![fullscreen focus mode](https://i.loli.net/2020/07/05/xcJwSQWdkmyfVIO.png)
 
 ------
 
@@ -43,7 +43,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:s
 
 关闭程序后再次打开会自动恢复上次的剩余时间。
 
-![timing](https://i.loli.net/2020/04/12/vwCpFukyYsmSM9T.png)
+![timing](https://i.loli.net/2020/07/05/ojTmPqMF4GZp6AS.png)
 
 ------
 
@@ -53,7 +53,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:s
 
 通过在设置中定制，你还可以每次开机启动后自动启动wnr并启动默认节律。
 
-![predefined tasks](https://i.loli.net/2020/04/12/QqhnJjN6p9RClGS.png)
+![predefined tasks](https://i.loli.net/2020/07/05/shGVtKMFzB1JRQ2.png)
 
 ------
 

@@ -23,7 +23,7 @@ Follows the minimalistic design style to make it simple but strong.
 
 Supports retina screens and touchscreens. Works fine with dark mode.
 
-![minimalist design](https://i.loli.net/2020/04/12/OnrZUYHowF4xqBv.png)
+![minimalist design](https://i.loli.net/2020/07/05/axDdINC458gTowv.png)
 
 ------
 
@@ -31,7 +31,7 @@ Supports retina screens and touchscreens. Works fine with dark mode.
 
 Always fails using a time management software? Try our fullscreen focus mode.
 
-![fullscreen focus mode](https://i.loli.net/2020/05/01/9DwWNFGPohnS1Yt.png)
+![fullscreen focus mode](https://i.loli.net/2020/07/05/8d6rliwGTY4qZKS.png)
 
 ------
 
@@ -41,7 +41,7 @@ Just start timing and that's all. Just wait to be notified when the timer is ove
 
 Any unfinished timer would be automatically resumed when you reopened wnr.
 
-![timing](https://i.loli.net/2020/04/12/Zf4jOkyazV5vMXe.png)
+![timing](https://i.loli.net/2020/07/05/DqJLYt42Q1is7CT.png)
 
 ------
 
@@ -49,7 +49,7 @@ Any unfinished timer would be automatically resumed when you reopened wnr.
 
 Want to use wnr in a popular flow like the Pomodoro? Use the predefined tasks.
 
-![predefined tasks](https://i.loli.net/2020/04/12/rb5lTuKmsiDvH9Z.png)
+![predefined tasks](https://i.loli.net/2020/07/05/HeayK74iLlzCsJ8.png)
 
 ------
 
