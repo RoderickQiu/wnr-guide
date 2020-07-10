@@ -6,6 +6,8 @@ The predifined tasks system was recently introduced to wnr. As the alternative t
 
 There are two kinds of tasks, one is default task, and another form is not. Default task cannot be deleted.
 
+You can easily add a new task or set a task to be default.
+
 **The content of the default task will show as the one with red title in the settings, and it'll be automatically filled to the index page.**
 
 <img src="https://i.loli.net/2020/02/14/KI8fFcrYiuMO4Bk.png"/><br />

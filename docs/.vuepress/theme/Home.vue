@@ -110,6 +110,7 @@ img {
 
 .btn {
   width: 225px;
+  height: 50.8px;
   padding: 1.2em 4em;
   margin: 5px;
 }
