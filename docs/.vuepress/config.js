@@ -50,7 +50,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.16.0',///version
+        versionFor: '1.17.0',///version
         locales: {
             '/': {
                 selectText: 'Languages',
@@ -77,6 +77,10 @@ module.exports = {
                             {
                                 title: 'Basic Usage',
                                 to: '/guide/1-basic-usage.html',
+                            },
+                            {
+                                title: 'Statistics',
+                                to: '/guide/3-statistics.html',
                             },
                             {
                                 title: 'More',
@@ -139,6 +143,10 @@ module.exports = {
                             {
                                 title: '基本使用要领',
                                 to: '/zh/guide/1-basic-usage.html',
+                            },
+                            {
+                                title: '时间统计',
+                                to: '/zh/guide/3-statistics.html',
                             },
                             {
                                 title: '更多事项',
