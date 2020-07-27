@@ -1,4 +1,6 @@
 # wnr-guide
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRoderickQiu%2Fwnr-guide.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FRoderickQiu%2Fwnr-guide?ref=badge_shield)
+
 
 ## Project setup
 
@@ -27,3 +29,6 @@ We are using vuepress and the vuepress theme [vuepress-theme-api](https://blog.s
 ## License
 
 The software of wnr is **MPL-2.0** licensed, while this website/guide is provided with **CC BY** license.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRoderickQiu%2Fwnr-guide.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FRoderickQiu%2Fwnr-guide?ref=badge_large)
