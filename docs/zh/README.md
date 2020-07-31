@@ -2,10 +2,10 @@
 home: true
 title: wnr
 description: 跨平台的轻量计时和时间管理工具，让你更高效、强力地管理工作与休息。
-footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name) | [邮件联系](mailto:scrisqiu@hotmail.com)
+footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.0** 许可证共享 | [邮件联系](mailto:scrisqiu@hotmail.com)
 ---
 
-**中文** | [English](../) | [GitHub项目](https://github.com/RoderickQiu/wnr) | [简化版Demo](https://wnr-jr.scris.top)
+**中文** | [English](../) | [GitHub项目](https://github.com/RoderickQiu/wnr) | [简化版Demo](https://wnr-jr.scris.top) | [获取PressKit](https://getwnr.com/presskit.zip)
 
 <br />
 
