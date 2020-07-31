@@ -9,7 +9,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 <br />
 
-<center><a href="./download/links.html" class="btn btn--default">下载（Win & macOS）</a><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
+<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default">下载（Win & macOS）</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
 
 <br />
 
@@ -29,7 +29,9 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 ## 全屏模式 强力控制
 
-自控力不够强，因此使用时间管理应用从未成功？wnr的全屏专心模式可以给你慰藉。
+自控力不够强，因此使用时间管理应用从未成功？wnr的全屏专心模式几乎坚不可摧。
+
+该休息时就休息，该工作时就工作。
 
 若不需要那么强的控制，你也可以在设置中选择宽松全屏模式。
 
@@ -73,7 +75,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 ## 立刻下载 改变自己
 
-<center><a href="./download/links.html" class="btn btn--default">现在就下载wnr</a></center>
+<center><a href="./download/links.html" class="btn btn--default"><b>现在就下载wnr</b></a></center>
 
 <br />
 

@@ -9,7 +9,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name), licensed under **CC-BY-4
 
 <br />
 
-<center><a href="./download/links.html" class="btn btn--default">Download now</a><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">Why, wnr</a></center>
+<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default"><b>Download now</b></a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">Why, wnr</a></center>
 
 <br />
 
@@ -19,7 +19,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name), licensed under **CC-BY-4
 
 ## Minimalistic & Elegant
 
-Follows the minimalistic design style to make it simple but strong.
+Follows the **minimalistic** design style to make it simple but strong.
 
 Supports retina screens and touchscreens. Works fine with dark mode.
 
@@ -31,15 +31,21 @@ Supports retina screens and touchscreens. Works fine with dark mode.
 
 Always fails using a time management software? Try our fullscreen focus mode.
 
+It seems that there **haven't been an app that is as strong as wnr**, when it comes to controlling your time.
+
+**Rest when you should rest, work when you should work**.
+
 ![fullscreen focus mode](https://i.loli.net/2020/07/05/8d6rliwGTY4qZKS.png)
 
 ------
 
 ## Precise & Humanized
 
-Just start timing and that's all. Just wait to be notified when the timer is over.
+Just start timing and **that's all**. Just wait to be notified when the timer is over.
 
 Any unfinished timer would be automatically resumed when you reopened wnr.
+
+A **floating window** is available here, too.
 
 ![timing](https://i.loli.net/2020/07/05/DqJLYt42Q1is7CT.png)
 
@@ -47,7 +53,7 @@ Any unfinished timer would be automatically resumed when you reopened wnr.
 
 ## Predefined Tasks
 
-Want to use wnr in a popular flow like the Pomodoro? Use the predefined tasks.
+Want to use wnr in a popular flow like the Pomodoro? Use the **predefined tasks**.
 
 ![predefined tasks](https://i.loli.net/2020/07/05/HeayK74iLlzCsJ8.png)
 
@@ -71,7 +77,7 @@ Lock mode
 
 ## Download Now
 
-<center><a href="./download/links.html" class="btn btn--default">Download wnr</a></center>
+<center><a href="./download/links.html" class="btn btn--default"><b>Download wnr</b></a></center>
 
 <br />
 
