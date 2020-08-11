@@ -6,9 +6,9 @@
 
 ## Links
 
-[GitHub Release](https://github.com/RoderickQiu/wnr/releases/latest) | [Softpedia (Windows)](https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml)
+[GitHub Release](https://github.com/RoderickQiu/wnr/releases/latest) | [Microsoft Store](https://www.microsoft.com/en-us/p/wnr/9n8nv1c5rxxw) | [Softpedia (Windows)](https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml)
 
-[Lanzous cloud-disk](https://www.lanzous.com/b01n0tb4j) (Chinese, Password: 7nzh) | [Baidu Netdisk](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F) (Chinese, Password: swh3)
+[Lanzous cloud-disk](https://www.lanzous.com/b01n0tb4j) (Chinese) | [Baidu Netdisk](https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F) (Chinese, Access key: swh3)
 
 ## Tips
 

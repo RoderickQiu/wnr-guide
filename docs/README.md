@@ -75,6 +75,22 @@ Lock mode
 
 ------
 
+## Well Recommended
+
+"It's easy to use and the dark mode is brilliant."
+
+"It's really neat, thank you!"
+
+"I've been using wnr for some time and it has been great! Thanks!"
+
+"Great software that relieved my neck and shoulder pain."
+
+"Best pomodoro app found. Will recommend your app to my colleagues."
+
+<center><span style="font-size:9px;color:grey;">* Some of them are translated from Chinese feedback.</span></center>
+
+------
+
 ## Download Now
 
 <center><a href="./download/links.html" class="btn btn--default"><b>Download wnr</b></a></center>
