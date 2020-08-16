@@ -5,7 +5,7 @@ description: It's a time-management tool for computers. Work and rest, with wnr 
 footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name), licensed under **CC-BY-4.0** License | [Email](mailto:scrisqiu@hotmail.com)
 ---
 
-[中文](/zh/) | **English** | [GitHub](https://github.com/RoderickQiu/wnr) | [Online Demo](https://wnr-jr.scris.top) | [Press Kit](https://getwnr.com/presskit.zip)
+[中文](/zh/) | **English** | [GitHub](https://github.com/RoderickQiu/wnr) | [Press Kit](https://getwnr.com/presskit.zip) | [Product Hunt](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)
 
 <br />
 
