@@ -9,7 +9,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 <br />
 
-<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default">下载（Win & macOS）</a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
+<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default"><b>现在下载</b></a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
 
 <br />
 
