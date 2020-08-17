@@ -111,7 +111,7 @@ img {
 .btn {
   width: 225px;
   height: 50.8px;
-  padding: 1.2em 4em;
+  padding: 1.2em 0em;
   margin: 5px;
 }
 
