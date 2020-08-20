@@ -83,6 +83,12 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 “找了一堆关于番茄钟的程序，最后就觉得你这个最好，简洁，<br />没有那么多乱七八糟的东西，支持你的程序，如果有机会会推荐给同事用。”
 
+<br />
+<a href="https://sspai.com/post/60132" target="_blank"><img class="with-link" src="https://i.loli.net/2020/08/20/DeVXENtxAcK8Cg4.jpg" style="width: 108px !important; height: 108px !important; padding: 8px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.appinn.com/wnr-work-and-rest/" target="_blank"><img class="with-link" src="https://i.loli.net/2020/08/20/2Vfn7oe3PCMGibI.png" style="width: 200px !important; height: 54px !important; padding: 8px;" /></a>&nbsp;&nbsp;
+<a href="https://www.producthunt.com/posts/wnr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-wnr" target="_blank"><img class="with-link" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=233088&theme=light&period=daily" alt="wnr - Better than pomodoro, this timer app balances work and rest. | Product Hunt Embed" style="width: 300px !important; height: 64px !important; padding: 8px;" /></a>&nbsp;&nbsp;
+<a href="https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml" target="_blank"><img class="with-link" src="https://i.loli.net/2020/08/20/jFtqrLv9ol5VkAR.png" style="width: 100px !important; height: 96px !important; padding: 8px;" /></a>&nbsp;&nbsp;
+
 ------
 
 ## 立刻下载 改变自己

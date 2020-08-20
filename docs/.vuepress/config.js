@@ -18,7 +18,7 @@ module.exports = {
         'smooth-scroll': {},
         "pangu": {},
         'zooming': {
-            selector: ".content__container img",
+            selector: ".content__container img:not(.with-link)",
             options: {
                 bgColor: '#ffffff',
                 zIndex: 10000,
