@@ -50,7 +50,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.18.0',///version
+        versionFor: '1.20.0',///version
         locales: {
             '/': {
                 selectText: 'Languages',
