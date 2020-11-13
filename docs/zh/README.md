@@ -23,7 +23,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 适配高分屏、暗黑模式和触摸屏。
 
-![minimalist design](https://i.loli.net/2020/07/05/xViyCBsPJzdfE8h.png)
+![minimalist design](https://i.loli.net/2020/11/13/tckmXblyLwpzNu4.png)
 
 ------
 
@@ -45,7 +45,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 关闭程序后再次打开会自动恢复上次的剩余时间。
 
-![timing](https://i.loli.net/2020/07/05/ojTmPqMF4GZp6AS.png)
+![timing](https://i.loli.net/2020/11/13/Mw1WAN46qHg3GZo.png)
 
 ------
 
@@ -55,7 +55,7 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 通过在设置中定制，你还可以每次开机启动后自动启动wnr并启动默认节律。
 
-![predefined tasks](https://i.loli.net/2020/07/05/shGVtKMFzB1JRQ2.png)
+![predefined tasks](https://i.loli.net/2020/11/13/es7zHOvDcjfYlyq.png)
 
 ------
 

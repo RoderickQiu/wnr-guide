@@ -1,4 +1,4 @@
-# Download wnr
+# Download Now
 
 [Change Log](https://github.com/RoderickQiu/wnr/releases)
 

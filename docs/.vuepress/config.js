@@ -85,35 +85,11 @@ module.exports = {
                             {
                                 title: 'More',
                                 to: '/guide/2-more.html',
+                            },
+                            {
+                                title: 'Settings',
+                                to: '/settings/settings.html',
                             }
-                        ],
-                    },
-                    'settings': {
-                        children: [
-                            {
-                                title: 'Predefined Tasks',
-                                to: '/settings/2-predefined-tasks-settings.html',
-                            },
-                            {
-                                title: 'Global Settings',
-                                to: '/settings/3-global-settings.html',
-                            },
-                            {
-                                title: 'Lock Mode Settings',
-                                to: '/settings/4-lock-mode-settings.html',
-                            },
-                            {
-                                title: 'Other Things',
-                                to: '/settings/5-other-things.html',
-                            },
-                            {
-                                title: 'Languages',
-                                to: '/settings/6-languages.html',
-                            },
-                            {
-                                title: 'Personalization',
-                                to: '/settings/7-personalization.html',
-                            },
                         ]
                     }
                 },
@@ -129,7 +105,7 @@ module.exports = {
                                 to: '/zh/',
                             },
                             {
-                                title: '为什么你需要wnr',
+                                title: '你需要wnr',
                                 to: '/zh/why-wnr/yes-wnr.html',
                             },
                             {
@@ -151,35 +127,11 @@ module.exports = {
                             {
                                 title: '更多事项',
                                 to: '/zh/guide/2-more.html',
+                            },
+                            {
+                                title: '设置',
+                                to: '/zh/settings/settings.html',
                             }
-                        ],
-                    },
-                    '设置': {
-                        children: [
-                            {
-                                title: '预设设置',
-                                to: '/zh/settings/2-predefined-tasks-settings.html',
-                            },
-                            {
-                                title: '全局设置',
-                                to: '/zh/settings/3-global-settings.html',
-                            },
-                            {
-                                title: '锁定模式设置',
-                                to: '/zh/settings/4-lock-mode-settings.html',
-                            },
-                            {
-                                title: '其它事项',
-                                to: '/zh/settings/5-other-things.html',
-                            },
-                            {
-                                title: '语言设置',
-                                to: '/zh/settings/6-languages.html',
-                            },
-                            {
-                                title: '个性化设置',
-                                to: '/zh/settings/7-personalization.html',
-                            },
                         ]
                     }
                 },
