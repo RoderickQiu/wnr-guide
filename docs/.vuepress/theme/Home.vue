@@ -57,8 +57,6 @@ export default {
         this.$page.frontmatter.description1 ||
         this.$page.description1 ||
         this.$description1 ||
-        this.$page.description ||
-        this.$description ||
         '📦 🎨 A api-friendly theme for VuePress.'
       )
     },
