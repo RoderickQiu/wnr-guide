@@ -5,7 +5,7 @@ description1: 跨平台的轻量计时和时间管理工具
 description2: 让你更高效、强力地管理工作与休息。
 footer: (c) 2019-2021 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.0** 许可证共享 | [邮件联系](mailto:scrisqiu@hotmail.com)
 topbar: 
-    - "[获取 PressKit](https://getwnr.com/presskit.zip)   [ProductHunt 推荐](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)   [为什么你需要 wnr](./why-wnr/yes-wnr.html)"
+    - "[宣传资料](https://getwnr.com/presskit.zip)   [PH 推荐](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)   [为什么是 wnr](./why-wnr/yes-wnr.html)"
     - "[**文档**](./guide/1-basic-usage.html)   [**GitHub 项目**](https://github.com/RoderickQiu/wnr)   [**English**](../) "
 ---
 
