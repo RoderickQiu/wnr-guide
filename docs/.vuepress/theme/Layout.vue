@@ -1,5 +1,6 @@
 <template>
   <div class="theme__container" :class="pageClasses">
+    <div v-text=""></div>
     <div class="menu__container">
       <a v-on:click="openMenu()" v-show="shouldShowSidebar">
         <img src="./src/menu.png" v-show="shouldContentSeen" />
@@ -58,7 +59,7 @@ export default {
     }
   },
   methods: {
-    openMenu: function() {
+    openMenu: function () {
       this.shouldMenuOpen
         ? (this.shouldMenuOpen = false)
         : (this.shouldMenuOpen = true)
@@ -112,7 +113,7 @@ export default {
     })
   },
   watch: {
-    $route: function() {
+    $route: function () {
       this.isSidebarOpen = false
       this.shouldMenuOpen = false
       this.shouldContentSeen = true
@@ -126,10 +127,7 @@ export default {
         this.$page.description1 || this.$description1
       this.$ssrContext.description2 =
         this.$page.description2 || this.$description2
-      this.$ssrContext.description =
-        this.$ssrContext.description1 + this.$ssrContext.description2 ||
-        this.$page.description ||
-        this.$description
+      this.$ssrContext.description = this.$page.description || this.$description
     }
   },
 }

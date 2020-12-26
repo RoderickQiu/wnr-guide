@@ -9,8 +9,8 @@
         {{ title }}
       </div>
       <div class="home__topbar col-9 text-right">
-        <p id="topbar1" v-html="topbar1"></p>
-        <p id="topbar2" v-html="topbar2"></p>
+        <div id="topbar1" v-html="topbar1"></div>
+        <div id="topbar2" v-html="topbar2"></div>
       </div>
       <p class="home__description1 col-12">{{ description1 }}</p>
       <p class="home__description2 col-12">{{ description2 }}</p>
