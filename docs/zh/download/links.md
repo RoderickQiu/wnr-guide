@@ -12,6 +12,8 @@
 
 ## 请注意
 
+- 由于使用了<a href="https://blog.csdn.net/sinat_36422236/article/details/84988291">Electron</a>技术，软件大小可能达到数十MB；但下载速度较快，几秒内可以下载完毕。
+
 - 如果你是Windows 8/8.1/10用户且没有关闭Windows Defender Smartscreen，**你有可能需要在打开应用后的Smartscreen拦截框中点击“更多信息”->“仍然允许”来运行wnr**。原因很简单：取消这个拦截需要我们花费数百美刀购买证书。
 
 - 如果你是Windows 7用户，且你在使用时出现wnr**黑屏**的情况，请为wnr打开 **“Vista兼容模式”** *（找到wnr的快捷方式，在右键菜单中找到“属性”，在“兼容性”->“兼容模式”，选择“以兼容模式运行这个程序”，并在下拉菜单中选择“Windows Vista”）*。

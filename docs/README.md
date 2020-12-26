@@ -1,21 +1,17 @@
 ---
 home: true
 title: wnr
-description: It's a time-management tool for computers. Work and rest, with wnr now.
-footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name), licensed under **CC-BY-4.0** License | [Email](mailto:scrisqiu@hotmail.com)
+description1: Effective time-management, better than pomodoros
+description2: Work and rest, with wnr now.
+footer: "(c) 2019-2021 [Roderick Qiu](https://r-q.name), licensed under **CC-BY-4.0** License | [Email](mailto:scrisqiu@hotmail.com)"
+topbar: 
+    - "[Press Kit](https://getwnr.com/presskit.zip)   [Product Hunt](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)   [Why, wnr](./why-wnr/yes-wnr.html)"
+    - "[**Documents**](./guide/1-basic-usage.html)   [**GitHub**](https://github.com/RoderickQiu/wnr)   [**中文**](/zh/)"
 ---
 
-[中文](/zh/) | **English** | [GitHub](https://github.com/RoderickQiu/wnr) | [Press Kit](https://getwnr.com/presskit.zip) | [Product Hunt](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)
+<center><a href="./download/links.html" class="btn btn--default"><b>Download now</b></a><br /><br /></center>
 
-<br />
-
-<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">Documents (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default"><b>Download now</b></a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">Why, wnr</a></center>
-
-<br />
-
-<center><span style="font-size:9px;color:grey;">* Using <a href="https://quasar.dev/quasar-cli/developing-electron-apps/introduction">Electron</a> to develop.</span></center>
-
-------
+![minimalist design](https://i.loli.net/2020/11/13/dHGyUnBxZSVAmcp.png)
 
 ## Minimalistic & Elegant
 
@@ -23,9 +19,9 @@ Follows the **minimalistic** design style to make it simple but strong.
 
 Supports retina screens and touchscreens. Works fine with dark mode.
 
-![minimalist design](https://i.loli.net/2020/11/13/dHGyUnBxZSVAmcp.png)
-
 ------
+
+![fullscreen focus mode](https://i.loli.net/2020/07/05/8d6rliwGTY4qZKS.png)
 
 ## Fullscreen Focus
 
@@ -35,9 +31,9 @@ It seems that there **haven't been an app that is as strong as wnr**, when it co
 
 **Rest when you should rest, work when you should work**.
 
-![fullscreen focus mode](https://i.loli.net/2020/07/05/8d6rliwGTY4qZKS.png)
-
 ------
+
+![timing](https://i.loli.net/2020/11/13/DJjTv3m2BoR6w9G.png)
 
 ## Precise & Humanized
 
@@ -47,15 +43,13 @@ Any unfinished timer would be automatically resumed when you reopened wnr.
 
 A **floating window** is available here, too.
 
-![timing](https://i.loli.net/2020/11/13/DJjTv3m2BoR6w9G.png)
-
 ------
+
+![predefined tasks](https://i.loli.net/2020/11/13/uCw4MjGe6lSpQRs.png)
 
 ## Predefined Tasks
 
 Want to use wnr in a popular flow like the Pomodoro? Use the **predefined tasks**.
-
-![predefined tasks](https://i.loli.net/2020/11/13/uCw4MjGe6lSpQRs.png)
 
 ------
 
@@ -67,9 +61,13 @@ Multi-screen support
 
 Multi-virtual-desktops support
 
-Portable version for Windows users
+Portable version for Windows
 
 Lock mode
+
+MINI mode
+
+Timing statistics
 
 ......
 

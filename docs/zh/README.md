@@ -1,21 +1,17 @@
 ---
 home: true
 title: wnr
-description: 跨平台的轻量计时和时间管理工具，让你更高效、强力地管理工作与休息。
-footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.0** 许可证共享 | [邮件联系](mailto:scrisqiu@hotmail.com)
+description1: 跨平台的轻量计时和时间管理工具
+description2: 让你更高效、强力地管理工作与休息。
+footer: (c) 2019-2021 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.0** 许可证共享 | [邮件联系](mailto:scrisqiu@hotmail.com)
+topbar: 
+    - "[获取 PressKit](https://getwnr.com/presskit.zip)   [ProductHunt 推荐](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)   [为什么你需要 wnr](./why-wnr/yes-wnr.html)"
+    - "[**文档**](./guide/1-basic-usage.html)   [**GitHub 项目**](https://github.com/RoderickQiu/wnr)   [**English**](../) "
 ---
 
-**中文** | [English](../) | [GitHub项目](https://github.com/RoderickQiu/wnr) | [获取PressKit](https://getwnr.com/presskit.zip) | [ProductHunt推荐](https://www.producthunt.com/posts/wnr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wnr)
+<center><a href="./download/links.html" class="btn btn--default"><b>现在就下载</b></a><br /><br /></center>
 
-<br />
-
-<center><a href="./guide/1-basic-usage.html" class="btn btn--secondary">文档 (v{{$site.themeConfig.versionFor}})</a><a href="./download/links.html" class="btn btn--default"><b>现在下载</b></a><a href="./why-wnr/yes-wnr.html" class="btn btn--third">为什么你需要wnr</a></center>
-
-<br />
-
-<center><span style="font-size:9px;color:grey;">* 由于使用了<a href="https://blog.csdn.net/sinat_36422236/article/details/84988291">Electron</a>技术，软件大小可能达到数十MB；但下载速度较快，几秒内可以下载完毕。</span></center>
-
-------
+![minimalist design](https://i.loli.net/2020/11/13/tckmXblyLwpzNu4.png)
 
 ## 极简设计 舒心易用
 
@@ -23,9 +19,9 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 适配高分屏、暗黑模式和触摸屏。
 
-![minimalist design](https://i.loli.net/2020/11/13/tckmXblyLwpzNu4.png)
-
 ------
+
+![fullscreen focus mode](https://i.loli.net/2020/07/05/xcJwSQWdkmyfVIO.png)
 
 ## 全屏模式 强力控制
 
@@ -35,9 +31,9 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 若不需要那么强的控制，你也可以在设置中选择宽松全屏模式。
 
-![fullscreen focus mode](https://i.loli.net/2020/07/05/xcJwSQWdkmyfVIO.png)
-
 ------
+
+![timing](https://i.loli.net/2020/11/13/Mw1WAN46qHg3GZo.png)
 
 ## 精准计时 人性体验
 
@@ -45,17 +41,15 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 关闭程序后再次打开会自动恢复上次的剩余时间。
 
-![timing](https://i.loli.net/2020/11/13/Mw1WAN46qHg3GZo.png)
-
 ------
+
+![predefined tasks](https://i.loli.net/2020/11/13/es7zHOvDcjfYlyq.png)
 
 ## 预设模式 快捷强大
 
 有一套常用的节律（如番茄法）？没事，预设模式就能实现。
 
 通过在设置中定制，你还可以每次开机启动后自动启动wnr并启动默认节律。
-
-![predefined tasks](https://i.loli.net/2020/11/13/es7zHOvDcjfYlyq.png)
 
 ------
 
@@ -65,9 +59,15 @@ footer: (c) 2019-2020 [Roderick Qiu](https://r-q.name)，内容遵照 **CC-BY-4.
 
 多显示器支持、多虚拟桌面支持
 
-便携版提供（Windows）
+便携版（Windows）
 
 锁定模式，更加强力
+
+MINI模式
+
+正计时和仅计时功能
+
+统计数据记录
 
 ……
 

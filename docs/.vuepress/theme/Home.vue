@@ -1,8 +1,19 @@
 <template>
   <div class="home__container container">
-    <div class="home__header">
-      <h1 class="home__title">{{ title }}</h1>
-      <p class="home__description">{{ description }}</p>
+    <div class="home__header row">
+      <div class="home__title col-3">
+        <img
+          src="https://i.loli.net/2020/12/26/pOAiXjwIdMZEBzt.png"
+          id="logo"
+        />
+        {{ title }}
+      </div>
+      <div class="home__topbar col-9 text-right">
+        <p id="topbar1" v-html="topbar1"></p>
+        <p id="topbar2" v-html="topbar2"></p>
+      </div>
+      <p class="home__description1 col-12">{{ description1 }}</p>
+      <p class="home__description2 col-12">{{ description2 }}</p>
     </div>
     <div class="home__body row">
       <div class="home__content content__container">
@@ -33,10 +44,29 @@ export default {
     title() {
       return this.$page.frontmatter.title || this.$title || 'Hello, World.'
     },
-    description() {
+    topbar1() {
+      const defaultTopbar =
+        'Power by [vuepress](https://github.com/vuejs/vuepress).'
+      return md.render(this.data.topbar[0] || defaultTopbar)
+    },
+    topbar2() {
+      return md.render(this.data.topbar[1] || '')
+    },
+    description1() {
       return (
+        this.$page.frontmatter.description1 ||
+        this.$page.description1 ||
+        this.$description1 ||
         this.$page.description ||
         this.$description ||
+        '📦 🎨 A api-friendly theme for VuePress.'
+      )
+    },
+    description2() {
+      return (
+        this.$page.frontmatter.description2 ||
+        this.$page.description2 ||
+        this.$description2 ||
         '📦 🎨 A api-friendly theme for VuePress.'
       )
     },
@@ -53,9 +83,12 @@ export default {
 @import './styles/_variables.styl';
 
 .home {
+  color: $textColor;
+
   &__header {
     margin: 3rem 0 1rem 0;
     text-align: center;
+    align-content: center;
 
     @media screen and (max-width: 768px) {
       margin-top: 1rem;
@@ -65,11 +98,58 @@ export default {
   &__title {
     font-size: 46px;
     font-weight: 400;
+    top: -3rem;
+    left: 1rem;
+    text-align: left;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+      #logo {
+        display: none;
+      }
+    }
   }
 
-  &__description {
-    padding: 0 20%;
-    margin-bottom: 3rem;
+  &__topbar {
+    font-size: 17px;
+    font-weight: 400;
+    top: -2rem;
+    right: 1rem;
+    text-align: right;
+    position: relative;
+
+    a {
+      color: $textColor !important;
+      margin-right: 1rem;
+    }
+
+    #topbar2 {
+      margin-top: -1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+      top: -1.8rem;
+
+      a {
+        margin-right: 0.3rem;
+      }
+    }
+  }
+
+  &__description1 {
+    padding: 0 10%;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 32px;
+    font-weight: bolder;
+    color: $black;
+  }
+
+  &__description2 {
+    padding: 0 10%;
+    margin-top: 1rem;
+    text-align: center;
     font-size: 18px;
     line-height: 24px;
     color: $black;
@@ -81,7 +161,7 @@ export default {
   }
 
   &__content {
-    padding: 1rem 4rem 4rem 4rem;
+    padding: 0rem 4rem 4rem 4rem;
   }
 
   &__footer {
@@ -94,12 +174,17 @@ export default {
 <style>
 hr {
   margin: 50px;
-  color: #00000039;
+  color: #00000039 !important;
   border-width: 0.39px;
 }
 
 img {
-  width: 39% !important;
+  width: 48% !important;
+}
+
+#logo {
+  width: 46px !important;
+  height: 46px !important;
 }
 
 @media screen and (max-width: 720px) {
@@ -124,25 +209,5 @@ img {
   border-color: #ea5454cc;
   background-color: #f9f9f9;
   color: #ea5454;
-}
-
-.btn--secondary {
-  color: #000000;
-  border-color: #000000cc;
-}
-
-.btn--secondary:hover {
-  border-color: #4a9af6cc;
-  color: #5490ea;
-}
-
-.btn--third {
-  color: #ea5454;
-  border-color: #ea5454cc;
-}
-
-.btn--third:hover {
-  border-color: #000000cc;
-  color: #000000;
 }
 </style>

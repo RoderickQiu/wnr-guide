@@ -12,6 +12,8 @@
 
 ## Tips
 
+- Using <a href="https://quasar.dev/quasar-cli/developing-electron-apps/introduction">Electron</a> to develop.
+
 - Tips for Windows Users:
 
   - *Please note that if you've turned on **Windows Defender Smartscreen**, you may need to **click [more info] and then [still allow] to run it**, **or to click [run anyway]** for Windows 8. The situation is here because we cannot afford to buy a signing certificate which costs [hundreds of dollars].*

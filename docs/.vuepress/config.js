@@ -40,7 +40,7 @@ module.exports = {
             lang: 'en-US',
             title: 'wnr',
             text: 'English',
-            description: 'The website and guide of wnr. It\'s a time- management tool for computers. ',
+            description: 'The website and guide of wnr. It\'s a time-management tool for computers. ',
         },
         '/zh/': {
             lang: 'zh-CN',
@@ -50,7 +50,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        versionFor: '1.20.0',///version
+        versionFor: '1.20.1',///version
         locales: {
             '/': {
                 selectText: 'Languages',

@@ -13,7 +13,10 @@
           <slot name="sidebar-bottom" slot="bottom" />
         </Sidebar>
       </div>
-      <div class="col-md-9 col-lg-10 content__container" v-show="shouldContentSeen">
+      <div
+        class="col-md-9 col-lg-10 content__container"
+        v-show="shouldContentSeen"
+      >
         <div class="custom__layout" v-if="$page.frontmatter.layout">
           <component :is="$page.frontmatter.layout" />
         </div>
@@ -119,7 +122,14 @@ export default {
     if (this.$ssrContext) {
       this.$ssrContext.title = this.$title
       this.$ssrContext.lang = this.$lang
-      this.$ssrContext.description = this.$page.description || this.$description
+      this.$ssrContext.description1 =
+        this.$page.description1 || this.$description1
+      this.$ssrContext.description2 =
+        this.$page.description2 || this.$description2
+      this.$ssrContext.description =
+        this.$ssrContext.description1 + this.$ssrContext.description2 ||
+        this.$page.description ||
+        this.$description
     }
   },
 }
@@ -136,6 +146,10 @@ export default {
     height: 100%;
   }
 
+  .theme__container {
+    overflow: hidden;
+  }
+
   .menu__container {
     display: block;
     position: sticky;
@@ -149,11 +163,6 @@ export default {
 }
 
 @media screen and (min-width: 768px) {
-  img {
-    width: 50%;
-    height: 50%;
-  }
-
   .menu__container {
     display: none;
   }

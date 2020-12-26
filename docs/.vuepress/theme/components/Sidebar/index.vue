@@ -150,7 +150,7 @@ export default {
   padding-top: 3rem
   overflow: auto
   background: $white
-  @media screen and (max-width: 768px) 
+  @media screen and (max-width: 768px)
     position: relative
 
 .group
