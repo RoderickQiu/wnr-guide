@@ -14,7 +14,6 @@
     <meta property="og:url" content="https://getwnr.com/"/>
     <meta name="author" content="Roderick Qiu">
     <meta name="description" content="The website and guide of wnr. It's a time-management tool for computers. "/>
-    <link href="res/bootstrap.css" rel="stylesheet"/>
     <link href="res/style.css" rel="stylesheet"/>
     <link rel="alternate" hreflang="zh" href="https://getwnr.com/zh/"/>
     <link rel="alternate" hreflang="x-default" href="https://getwnr.com/"/>
@@ -31,6 +30,7 @@
             s.parentNode.insertBefore(bp, s);
         })();
     </script>
+    <script src="res/renderer.js"></script>
 </head>
 
 <body class="flex-column align-content-center">
@@ -42,10 +42,12 @@
             <h3 id="logo-text">wnr</h3>
             <h1>Work/Rest Timer. Stricter. Prettier. More features. Win/Mac/Linux. </h1>
             <div>
-                <a href="https://github.com/RoderickQiu/wnr">Open-sourced on GitHub</a> | <a href="zh/index.html">中文</a>
+                <a href="https://github.com/RoderickQiu/wnr">Open-sourced on GitHub</a> | <a
+                    href="zh/index.html">中文</a>
             </div>
             <br/>
-            <a class="btn btn-lg btn-outline-primary" href="#" role="button">Download wnr now for free</a>
+            <a class="btn btn-lg btn-outline-primary" href="javascript:pageOpen()" role="button">Download wnr now for
+                free</a>
             <br/>
         </div>
         <div class="col-md-5 text-right" id="main-pic-container">
@@ -68,7 +70,8 @@
         <div class="col-md-7 padding-left">
             <h2>Stricter Timing</h2>
             Always fails using a time management software? Try our <b>fullscreen focus mode</b>, which provides the
-            mandatory rest function, so that you will no longer skip every rest period. The fullscreen focus mode also
+            mandatory rest function, so that you will no longer skip every rest period. The fullscreen focus mode
+            also
             blocks every virtual desktop and every monitor.<br/><br/>
             Moreover, you can choose to <b>disable cancelling, skipping or stopping</b> or even <b>enable parent
             control</b> to make it even stronger.<br/><br/>
@@ -105,14 +108,14 @@
                     <tbody>
                     <tr>
                         <td width="30%"><a href="https://sspai.com/post/60132" target="_blank">
-                            <img src="https://i.loli.net/2020/08/20/DeVXENtxAcK8Cg4.jpg"
+                            <img src="https://s2.loli.net/2022/01/21/LGfDi5WcMgQT9qm.jpg"
                                  style="max-width:100%; padding:8px;">
                         </a></td>
                         <td width="6%">&nbsp;</td>
                         <td width="64%">
                             <a href="https://www.producthunt.com/posts/wnr?utm_source=badge-top-post-badge&amp;utm_medium=badge&utm_souce=badge-wnr"
                                target="_blank">
-                                <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=233088&theme=light&period=daily"
+                                <img src="res/producthunt.svg"
                                      alt="Product Hunt Embed"
                                      style="max-width:100%; padding:8px;">
                             </a>
@@ -146,7 +149,9 @@
                 <li>"It's really neat, thank you!"</li>
                 <li>"I've been using wnr for some time and it has been great! Thanks!"</li>
                 <li>"Great software that relieved my neck and shoulder pain."</li>
-                <li>"It is the best pomodoro app that I've ever found! I will recommend your app to my colleagues."</li>
+                <li>"It is the best pomodoro app that I've ever found! I will recommend your app to my
+                    colleagues."
+                </li>
             </ul>
             <br/>
         </div>
@@ -160,20 +165,58 @@
         <h2>Download now to change your life!</h2>
         Install it and discover even more features, such as <b>statistics, mini mode, predefined tasks</b> and so
         on!<br/><br/>
-        <a class="btn btn-danger" href="#" role="button">Get wnr now</a><br/>
+        <a class="btn btn-danger" href="javascript:pageOpen()" role="button">Get wnr now</a><br/>
         <br/><br/><br/>
     </div>
     <br/>
 
     <hr/>
 
+    <br/>
     <footer class="footer mx-auto py-5 text-center" id="footer">
         <div class="container">
             <p>(c) 2019-2022 <a href="https://r-q.name">Roderick Qiu</a> | <a
                     href="mailto:scrisqiu@hotmail.com">Drop me a line</a></p>
         </div>
     </footer>
+    <br/><br/>
+
 </div>
+
+
+<div id="download-page">
+    <div id="page-close">
+        <a href="javascript:pageClose()">
+            <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path d="M573.021091 512.512l330.938182 330.938182-60.346182 60.346182-330.938182-330.938182L179.525818 906.007273l-60.509091-60.532364 333.125818-333.149091L119.179636 179.362909l60.346182-60.369454 332.986182 332.986181L845.474909 118.993455l60.509091 60.532363-332.962909 332.986182z"></path>
+            </svg>
+        </a>
+    </div>
+    <div id="download-container">
+        <h2>Safe Download Links</h2>
+        <a href="https://github.com/RoderickQiu/wnr/releases/latest">GitHub Release</a> | <a
+            href="https://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/wnr.shtml">Softpedia</a>
+        <small>(Windows)</small><br/>
+        <a href="https://scris.lanzoui.com/b01n0tb4j">Lanzou cloud-disk</a> <small>(Chinese)</small> | <a
+            href="https://pan.baidu.com/s/1PDpnEkf-zKQKQIhUTO0ubQ#list/path=%2F">Baidu Net-disk</a> <small>(Chinese,
+        Access key: swh3)</small>
+        <div id="download-tips">
+            <p id="win10-tip">Please note that if you've turned on <b>Windows Defender Smartscreen</b>, you
+                may need to <b>click [more info] and then [still allow] to run it</b>. The situation is here
+                because we cannot afford to buy a signing certificate which costs hundreds of dollars.</p>
+            <p id="win8-tip">Please note that if you've turned on <b>Windows Defender Smartscreen</b>, you
+                may need to <b>click [run anyway]</b>. The situation is here because we cannot
+                afford to buy a signing certificate which costs hundreds of dollars.</p>
+            <p id="win7-tip">If you are using Windows 7 and the application isn't working properly, please <b>apply
+                for the &quot;Vista Compatibility Mode&quot;</b>.</p>
+            <p id="mac-tip">Please note that the <b>macOS version is unsigned</b>, so you may need to follow
+                <a href="https://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac"
+                   target="_blank"><b>this guide</b></a> in order to use. This software is clean and safe, I
+                promise.</p>
+        </div>
+    </div>
+</div>
+
 </body>
 
 </html>
