@@ -9,7 +9,7 @@ function getOSName() {
             return "8";
         } else if (version.indexOf("Windows NT 10") !== -1) {
             return "10";
-        } else return "other";
+        } else return "10";
     } else return "other";
 }
 

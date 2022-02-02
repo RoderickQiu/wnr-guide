@@ -116,6 +116,11 @@ li {
     box-shadow: 1px 1px 6px #ccc;
 }
 
+.bold {
+    font-weight: bold;
+    font-size: larger;
+}
+
 .text-left {
     text-align: left;
 }
@@ -147,7 +152,6 @@ li {
 
     #main-pic {
         margin-top: 20px;
-        transform: translateX(-3%);
     }
 
     h1 {
