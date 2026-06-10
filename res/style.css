@@ -141,6 +141,32 @@ li {
     border-bottom: initial;
 }
 
+.seenot-promo {
+    max-width: 760px;
+    margin: 0 auto 48px;
+    padding-top: 28px;
+    color: #343a40;
+}
+
+.seenot-promo-label {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.seenot-promo h2 {
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+.seenot-promo p {
+    margin-bottom: 18px;
+    color: gray;
+}
+
 @media (max-width: 768px) {
     #main {
         padding-top: 0;
@@ -170,6 +196,15 @@ li {
     .btn-lg {
         font-size: smaller !important;
         width: 100%;
+    }
+
+    .seenot-promo {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .seenot-promo h2 {
+        font-size: 24px;
     }
 }
 
