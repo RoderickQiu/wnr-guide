@@ -141,14 +141,18 @@ li {
     border-bottom: initial;
 }
 
-.seenot-promo {
-    max-width: 760px;
+.more-apps {
+    max-width: 880px;
     margin: 0 auto 48px;
     padding-top: 28px;
     color: #343a40;
 }
 
-.seenot-promo-label {
+.more-apps-heading {
+    margin-bottom: 32px;
+}
+
+.more-apps-label {
     display: block;
     margin-bottom: 10px;
     color: gray;
@@ -157,14 +161,64 @@ li {
     text-transform: uppercase;
 }
 
-.seenot-promo h2 {
-    margin-bottom: 12px;
+.more-apps h2 {
+    margin: 0;
     font-size: 28px;
 }
 
-.seenot-promo p {
-    margin-bottom: 18px;
+.more-apps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.more-apps-grid-single {
+    display: block;
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.more-app {
+    padding: 28px 36px 30px;
+}
+
+.more-app + .more-app {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.more-app h3 {
+    margin: 0 0 8px;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.more-app p {
+    min-height: 52px;
+    margin: 0 0 14px;
     color: gray;
+}
+
+.more-app a {
+    font-weight: 600;
+}
+
+.more-app a span {
+    display: inline-block;
+    margin-left: 3px;
+    transition: transform 0.3s ease;
+}
+
+.more-app a:hover span,
+.more-app a:focus span {
+    transform: translateX(3px);
+}
+
+.more-app a:focus-visible {
+    outline: 2px solid #5490ea;
+    outline-offset: 4px;
 }
 
 @media (max-width: 768px) {
@@ -198,13 +252,30 @@ li {
         width: 100%;
     }
 
-    .seenot-promo {
+    .more-apps {
         padding-right: 10px;
         padding-left: 10px;
     }
 
-    .seenot-promo h2 {
+    .more-apps h2 {
         font-size: 24px;
+    }
+
+    .more-apps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .more-app {
+        padding: 24px 10px;
+    }
+
+    .more-app + .more-app {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-left: 0;
+    }
+
+    .more-app p {
+        min-height: 0;
     }
 }
 
