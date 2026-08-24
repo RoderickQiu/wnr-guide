@@ -15,10 +15,12 @@ function getOSName() {
 
 function pageClose() {
     document.getElementById("download-page").style.display = "none";
+    document.body.style.overflow = "";
 }
 
 function pageOpen() {
     document.getElementById("download-page").style.display = "flex";
+    document.body.style.overflow = "hidden";
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -51,5 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById("mac-tip").style.display = "none";
                 break;
         }
-    }
-);
+    });
+
+document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && document.getElementById("download-page").style.display === "flex") {
+            pageClose();
+        }
+});
